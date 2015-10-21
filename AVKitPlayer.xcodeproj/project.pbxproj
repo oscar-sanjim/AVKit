@@ -13,6 +13,9 @@
 		FBA05EC91BD6FD6D00335D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA05EC71BD6FD6D00335D27 /* Main.storyboard */; };
 		FBA05ECB1BD6FD6D00335D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA05ECA1BD6FD6D00335D27 /* Assets.xcassets */; };
 		FBA05ECE1BD6FD6D00335D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA05ECC1BD6FD6D00335D27 /* LaunchScreen.storyboard */; };
+		FBA05ED71BD6FEFF00335D27 /* MyVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA05ED61BD6FEFF00335D27 /* MyVideoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FBA05ED91BD7067F00335D27 /* movie.mov in Resources */ = {isa = PBXBuildFile; fileRef = FBA05ED81BD7067F00335D27 /* movie.mov */; settings = {ASSET_TAGS = (); }; };
+		FBA05EDB1BD7086100335D27 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA05EDA1BD7086100335D27 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		FBA05ECA1BD6FD6D00335D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA05ECD1BD6FD6D00335D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA05ECF1BD6FD6D00335D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA05ED51BD6FEFF00335D27 /* MyVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVideoViewController.h; sourceTree = "<group>"; };
+		FBA05ED61BD6FEFF00335D27 /* MyVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVideoViewController.m; sourceTree = "<group>"; };
+		FBA05ED81BD7067F00335D27 /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie.mov; path = "../../../../Desktop/carpeta sin título/Lessons/Lesson 11/movie.mov"; sourceTree = "<group>"; };
+		FBA05EDA1BD7086100335D27 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA05EDB1BD7086100335D27 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,7 @@
 		FBA05EB21BD6FD6D00335D27 = {
 			isa = PBXGroup;
 			children = (
+				FBA05EDA1BD7086100335D27 /* AVKit.framework */,
 				FBA05EBD1BD6FD6D00335D27 /* AVKitPlayer */,
 				FBA05EBC1BD6FD6D00335D27 /* Products */,
 			);
@@ -58,6 +67,7 @@
 		FBA05EBD1BD6FD6D00335D27 /* AVKitPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				FBA05ED81BD7067F00335D27 /* movie.mov */,
 				FBA05EC11BD6FD6D00335D27 /* AppDelegate.h */,
 				FBA05EC21BD6FD6D00335D27 /* AppDelegate.m */,
 				FBA05EC41BD6FD6D00335D27 /* ViewController.h */,
@@ -67,6 +77,8 @@
 				FBA05ECC1BD6FD6D00335D27 /* LaunchScreen.storyboard */,
 				FBA05ECF1BD6FD6D00335D27 /* Info.plist */,
 				FBA05EBE1BD6FD6D00335D27 /* Supporting Files */,
+				FBA05ED51BD6FEFF00335D27 /* MyVideoViewController.h */,
+				FBA05ED61BD6FEFF00335D27 /* MyVideoViewController.m */,
 			);
 			path = AVKitPlayer;
 			sourceTree = "<group>";
@@ -137,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA05ECE1BD6FD6D00335D27 /* LaunchScreen.storyboard in Resources */,
+				FBA05ED91BD7067F00335D27 /* movie.mov in Resources */,
 				FBA05ECB1BD6FD6D00335D27 /* Assets.xcassets in Resources */,
 				FBA05EC91BD6FD6D00335D27 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +164,7 @@
 			files = (
 				FBA05EC61BD6FD6D00335D27 /* ViewController.m in Sources */,
 				FBA05EC31BD6FD6D00335D27 /* AppDelegate.m in Sources */,
+				FBA05ED71BD6FEFF00335D27 /* MyVideoViewController.m in Sources */,
 				FBA05EC01BD6FD6D00335D27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

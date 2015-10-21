@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+@import AVFoundation;
+@import AVKit;
 @interface AppDelegate ()
 
 @end
