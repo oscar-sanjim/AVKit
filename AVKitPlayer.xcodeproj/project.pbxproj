@@ -10,12 +10,13 @@
 		FBA05EC01BD6FD6D00335D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA05EBF1BD6FD6D00335D27 /* main.m */; };
 		FBA05EC31BD6FD6D00335D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA05EC21BD6FD6D00335D27 /* AppDelegate.m */; };
 		FBA05EC61BD6FD6D00335D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA05EC51BD6FD6D00335D27 /* ViewController.m */; };
-		FBA05EC91BD6FD6D00335D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA05EC71BD6FD6D00335D27 /* Main.storyboard */; };
+		FBA05EC91BD6FD6D00335D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA05EC71BD6FD6D00335D27 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		FBA05ECB1BD6FD6D00335D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA05ECA1BD6FD6D00335D27 /* Assets.xcassets */; };
 		FBA05ECE1BD6FD6D00335D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA05ECC1BD6FD6D00335D27 /* LaunchScreen.storyboard */; };
 		FBA05ED71BD6FEFF00335D27 /* MyVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA05ED61BD6FEFF00335D27 /* MyVideoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FBA05ED91BD7067F00335D27 /* movie.mov in Resources */ = {isa = PBXBuildFile; fileRef = FBA05ED81BD7067F00335D27 /* movie.mov */; settings = {ASSET_TAGS = (); }; };
 		FBA05EDB1BD7086100335D27 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA05EDA1BD7086100335D27 /* AVKit.framework */; };
+		FBF7D3881BD9598D009880FC /* movie.mov in Resources */ = {isa = PBXBuildFile; fileRef = FBF7D3871BD9598D009880FC /* movie.mov */; settings = {ASSET_TAGS = (); }; };
+		FBF7D38A1BD95BCB009880FC /* small.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FBF7D3891BD95BCB009880FC /* small.mp4 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +32,9 @@
 		FBA05ECF1BD6FD6D00335D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBA05ED51BD6FEFF00335D27 /* MyVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVideoViewController.h; sourceTree = "<group>"; };
 		FBA05ED61BD6FEFF00335D27 /* MyVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVideoViewController.m; sourceTree = "<group>"; };
-		FBA05ED81BD7067F00335D27 /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie.mov; path = "../../../../Desktop/carpeta sin título/Lessons/Lesson 11/movie.mov"; sourceTree = "<group>"; };
 		FBA05EDA1BD7086100335D27 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FBF7D3871BD9598D009880FC /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie.mov; sourceTree = "<group>"; };
+		FBF7D3891BD95BCB009880FC /* small.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = small.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,8 @@
 		FBA05EBD1BD6FD6D00335D27 /* AVKitPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				FBA05ED81BD7067F00335D27 /* movie.mov */,
+				FBF7D3891BD95BCB009880FC /* small.mp4 */,
+				FBF7D3871BD9598D009880FC /* movie.mov */,
 				FBA05EC11BD6FD6D00335D27 /* AppDelegate.h */,
 				FBA05EC21BD6FD6D00335D27 /* AppDelegate.m */,
 				FBA05EC41BD6FD6D00335D27 /* ViewController.h */,
@@ -117,6 +120,9 @@
 		FBA05EB31BD6FD6D00335D27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Alumno ITESM Campus Toluca";
 				TargetAttributes = {
@@ -149,7 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA05ECE1BD6FD6D00335D27 /* LaunchScreen.storyboard in Resources */,
-				FBA05ED91BD7067F00335D27 /* movie.mov in Resources */,
+				FBF7D38A1BD95BCB009880FC /* small.mp4 in Resources */,
+				FBF7D3881BD9598D009880FC /* movie.mov in Resources */,
 				FBA05ECB1BD6FD6D00335D27 /* Assets.xcassets in Resources */,
 				FBA05EC91BD6FD6D00335D27 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +319,7 @@
 				FBA05ED41BD6FD6D00335D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
